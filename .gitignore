@@ -60,7 +60,6 @@
 /web/modules/contrib/
 /web/themes/contrib/
 /web/profiles/contrib/
-/web/libraries/
 /web/private/scripts/quicksilver
 
 # Do not ignore the directories below:
