@@ -1,20 +1,18 @@
-uuid: 40f9ce9f-bd99-49c6-a43a-80a545f20ae9
+uuid: b891ee12-5816-4f2b-a1dc-bbfb01dd46c2
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.page.body
-    - field.field.node.page.layout_builder__layout
-    - node.type.page
+    - field.field.node.blogs.body
+    - field.field.node.blogs.field_blog_image
+    - node.type.blogs
   module:
     - text
     - user
-_core:
-  default_config_hash: 8BgdRtLbtQ0F__o0FHSH0Mx5fvXOra9tfT1GmNKbRYw
-id: node.page.teaser
+id: node.blogs.teaser
 targetEntityType: node
-bundle: page
+bundle: blogs
 mode: teaser
 content:
   body:
@@ -23,10 +21,12 @@ content:
     settings:
       trim_length: 600
     third_party_settings: {  }
-    weight: 100
-    region: content
-  links:
     weight: 101
     region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
 hidden:
-  layout_builder__layout: true
+  field_blog_image: true
