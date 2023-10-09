@@ -1,0 +1,8 @@
+uuid: a09140a6-d0c4-433b-adbc-c1cc73b850fc
+langcode: en
+status: true
+dependencies: {  }
+id: block_basic
+label: 'Block Basic'
+revision: 0
+description: 'A block that contains an icon and body.'
