@@ -2,6 +2,8 @@ uuid: f9739526-0afb-4fee-a66c-b023be0a8fca
 langcode: en
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - bootstrap5
 _core:
@@ -17,4 +19,8 @@ settings:
   label: 'Page title'
   label_display: '0'
   provider: core
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

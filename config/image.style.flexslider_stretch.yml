@@ -1,0 +1,14 @@
+uuid: ecc8f98d-8087-4710-9d88-b3b3c97a5031
+langcode: en
+status: true
+dependencies: {  }
+name: flexslider_stretch
+label: 'Flexslider stretch'
+effects:
+  a6551ea3-814d-4c92-9cef-c94ec1f5a8a5:
+    uuid: a6551ea3-814d-4c92-9cef-c94ec1f5a8a5
+    id: image_resize
+    weight: 1
+    data:
+      width: 1400
+      height: 450

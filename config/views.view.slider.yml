@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_slider
-    - image.style.flexslider_full
+    - image.style.flexslider_stretch
     - node.type.slideshow
   module:
     - flexslider_fields
@@ -80,7 +80,7 @@ display:
           click_sort_column: target_id
           type: flexslider
           settings:
-            image_style: flexslider_full
+            image_style: flexslider_stretch
             image_link: ''
             image_loading:
               attribute: lazy
@@ -173,6 +173,11 @@ display:
         type: flexslider
       row:
         type: fields
+        options:
+          default_field_elements: true
+          inline: {  }
+          separator: ''
+          hide_empty: false
       query:
         type: views_query
         options:
