@@ -181,6 +181,41 @@
   --bs-form-invalid-border-color: #ea868f;
 }
 
+/*This is a css that I edited*/
+
+.block-ken-views-blockblogs-block-1 h2 {
+  text-align: center;
+}
+
+
+.more-link {
+  text-align: center;
+}
+
+.more-link a {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.more-link a:hover {
+  color: #800000;
+}
+
+.views-field-field-blog-image {
+  text-align: center;
+}
+
+.views-field-title {
+  text-align: center;
+}
+
+.views-field-body p {
+  text-align: center;
+}
+
+/*This is the end of edited css*/
+
 *,
 *::before,
 *::after {
