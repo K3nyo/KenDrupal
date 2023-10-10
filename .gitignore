@@ -58,12 +58,14 @@
 /drush/Commands/contrib/
 /web/core/
 /web/modules/contrib/
-/web/themes/contrib/
+/web/themes/contrib/*
+/web/libraries/*
 /web/profiles/contrib/
 /web/private/scripts/quicksilver
 
 # Do not ignore the directories below:
 !/web/libraries/flexslider
+!/web/themes/contrib/bootstrap5
 
 
 # Generally you should only ignore the root vendor directory. It's important
