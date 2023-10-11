@@ -25,7 +25,8 @@
         "drupal/bootstrap5": "^3.0",
         "drupal/flexslider": "^3.0@alpha",
         "drupal/pathauto": "^1.12",
-        "drupal/fullcalendar_view": "^5.1"
+        "drupal/fullcalendar_view": "^5.1",
+        "drupal/webform": "^6.2@RC"
     },
     "require-dev": {
         "drupal/core-dev": "^10"
